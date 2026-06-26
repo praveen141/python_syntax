@@ -30,4 +30,9 @@ print(student)
 inventory = {"apples": 10, "bananas": 5, "oranges": 8}
 inventory.clear()
 print(inventory)
-
+#Excercise to merge two dictionaries
+dict1 = {"a": 1, "b": 2}
+dict2 = {"b": 3, "c": 4}
+dict1 = dict1 | dict2
+#dict1.update(dict2)
+print(dict1)
