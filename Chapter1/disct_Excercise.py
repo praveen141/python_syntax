@@ -21,4 +21,13 @@ print(car)
 print("year exists: ", "year" in car)
 print("cost exists: ", "cost" in car)
 
+#Excercise 3 merge two list to create disctionary
+keys = ["name", "age", "city"]
+values = ["Bob", 25, "London"]
+student = dict(zip(keys, values))
+print(student)
+#Excercise 4 clear valeus from dictionary
+inventory = {"apples": 10, "bananas": 5, "oranges": 8}
+inventory.clear()
+print(inventory)
 
