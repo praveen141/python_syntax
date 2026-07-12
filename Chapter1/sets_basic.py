@@ -7,3 +7,4 @@ items = {"apple", "banana", "orange"}
 
 for item in items:
     print(item)
+
